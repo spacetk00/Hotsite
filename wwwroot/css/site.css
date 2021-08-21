@@ -5,8 +5,9 @@
 :root{
   --cor1: rgb(99, 138, 223);
   --cor2: rgb(62, 92, 158);
-  --cor3: #d9e1f7;
-  --cor4: #eef3ff;
+  --cor3: #b7c1df;
+  --cor4: #c7d2ed;
+  --cor5: #eef3ff;
   --fonte-destaque:'Anton', sans-serif;
   --fonte-titulo: 'Bebas Neue', serif;
   --fonte-p: 'PT Sans', sans-serif;;
@@ -19,7 +20,8 @@
 
 body{
   font-family: var(--fonte-p);
-  background-color: var(--cor4);
+  font-size: 1em;
+  background-color: var(--cor5);
   margin: auto;
 }
 
@@ -40,6 +42,10 @@ header > nav h1{
 h1, h2{
   font-family: var(--fonte-titulo);
   background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+
+h3{
+  font-family: var(--fonte-titulo);
 }
 
 article{
@@ -86,16 +92,40 @@ form label{
   background-color: var(--cor2);
 }
 
-aside a{
+.badge{
+  font-size: 1em;
+}
+
+.bmodal{
   font-size: 1.2em;
   font-weight: bold;
   color: black;
   text-decoration: none;
   transition: 0.5s;
+  border: none;
 }
 
-aside a:hover{
+.bmodal:hover{
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+  background-color: var(--cor4);
   text-decoration: none;
   transform: scale(0.8);
+  border: none;
+  outline: none;
+}
+
+.bmodal:active,
+.bmodal:focus{
+  border: none;
+  outline: none;
+}
+
+.partner-img{
+  border-radius: 50%;
+}
+
+.desc{
+  font-family: var(--fonte-p);
+  font-size: 0.5em;
+  margin-bottom: 0px;
 }

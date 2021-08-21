@@ -27,8 +27,16 @@ namespace Hotsite.Controllers
         public IActionResult Cadastrar(Interesse cad)
         {
             DatabaseService dbs = new DatabaseService();
-            dbs.CadastraInteresse(cad);
-            return View("Index",cad);
+            DatabaseContext db = new DatabaseContext();
+            if(db.Database.EnsureCreated()){
+                ViewBag.Falha = "Falha no cadastro, tente mais tarde";
+                return View("Index");
+            }
+            else{
+                dbs.CadastraInteresse(cad);
+                ViewBag.Confirma = "Cadastro confimardo";
+                return View("Index",cad);
+            }
         }
 
     }

@@ -25,39 +25,45 @@
     <div class="col-xm-12 com-md-12 col-lg-7 esquerda" id="form-box">
         <h2>Entre em contato</h2>
         <p class="mx-3">Nos mande uma mensagem e fique por dentro de nossos eventos</p>
-        <form action="/Home/Cadastrar" method="POST" class="align-self-center mx-3">
-            <div>
+        <form action="/Home/Cadastrar" method="POST" class="col align-self-center">
+            <div class="row mx-1">
                 <label asp-for="Nome">Nome:</label>
                 <input asp-for="Nome" class="form-control"/>
             </div>
-            <div>
+            <div class="row mx-1">
                 <label asp-for="Email">Email:</label>
                 <input asp-for="Email" class="form-control"/>
             </div>
-            <div>
+            <div class="row mx-1">
                 <label asp-for="Mensagem" class="align-self-center">Mensagem (opcional):</label>
                 <textarea asp-for="Mensagem" class="form-control"></textarea>
             </div>
-            <div>
-                <input type="submit" value="Enviar" class="my-3 botao"/>
+            <div class="row mx-1">
+                <input type="submit" value="Enviar" class="my-3 botao col-xm-12 col-lg-3 align-self-start"/>
+                <span class="badge badge-primary col-xm-12 col-lg-3 align-self-center">@ViewBag.Confirma</span>
+                <span class="badge badge-warning col-xm-12 col-lg-3 align-self-center">@ViewBag.Falha</span>
             </div>
         </form>
     </div>
     
     <div class="col-xm-12 com-md-6 col-lg-5 align-self-center">
         <div class="row mx-3">
-            <a href="#" class="co-xm-12 col-md-4 col-lg-4 text-center">
+            <button class="co-xm-12 col-md-4 col-lg-4 text-center bmodal" data-toggle="modal" data-target="#agenda">
                 <img src="../img/calendario.jpg" alt="Calendário" class="img-pq">
                 <p>Agenda de eventos</p>
-            </a>
-            <a href="#" class="co-xm-12 col-md-4 col-lg-4 text-center">
-                <img src="../img/dicas.jpg" alt="Kirby Saudável" class="img-pq">
+            </button>
+            <button class="co-xm-12 col-md-4 col-lg-4 text-center bmodal" data-toggle="modal" data-target="#dicas">
+                <img src="../img/dicas.jpg" alt="Kirby Saudável" class="img-pq"> 
                 <p>Dicas de vida saudável</p>
-            </a>
-            <a href="#" class="co-xm-12 col-md-4 col-lg-4 text-center">
+            </button>
+            <button class="co-xm-12 col-md-4 col-lg-4 text-center bmodal" data-toggle="modal" data-target="#apoiadores">
                 <img src="../img/apoiador.jpg" alt="King Dedede" class="img-pq">
                 <p>Apoiadores</p>
-            </a>
+            </button>
         </div>
     </div>
 </aside>
+
+<partial name="_ModalAgenda" />
+<partial name="_ModalDicas" />
+<partial name="_ModalApoiadores" />
