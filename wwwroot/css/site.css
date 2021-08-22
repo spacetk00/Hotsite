@@ -18,7 +18,12 @@
   margin: 0px;
 }
 
+html {
+  height: 100%;
+}
+
 body{
+  max-height: 100%;
   font-family: var(--fonte-p);
   font-size: 1em;
   background-color: var(--cor5);
@@ -48,6 +53,7 @@ h3{
   font-family: var(--fonte-titulo);
 }
 
+
 article{
   margin: 5px;
 }
@@ -62,6 +68,7 @@ aside{
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  max-height: 80%;
 }
 
 article img{
@@ -96,6 +103,14 @@ form label{
   font-size: 1em;
 }
 
+footer{
+  background-image: linear-gradient(to right, var(--cor2), var(--cor1));
+  color: azure;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
 .bmodal{
   font-size: 1.2em;
   font-weight: bold;
@@ -128,4 +143,20 @@ form label{
   font-family: var(--fonte-p);
   font-size: 0.5em;
   margin-bottom: 0px;
+}
+
+.bloco-central{
+  height: auto;
+}
+
+.bloco-central img,
+.bloco-central a{
+  display: block;
+  margin: auto;
+}
+
+.bloco-central a{
+  font-size: 1.2em;
+  width: 100px;
+  padding: 10px;
 }

@@ -14402,6 +14402,11 @@
   "RootNamespace": "Hotsite",
   "Documents": [
     {
+      "FilePath": "/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/Views/Home/_ModalAgenda.cshtml",
+      "TargetPath": "Views\\Home\\_ModalAgenda.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14409,6 +14414,21 @@
     {
       "FilePath": "/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/Views/Home/_ModalApoiadores.cshtml",
+      "TargetPath": "Views\\Home\\_ModalApoiadores.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/Views/Home/_ModalDicas.cshtml",
+      "TargetPath": "Views\\Home\\_ModalDicas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/Views/Erro/Erro500.cshtml",
+      "TargetPath": "Views\\Erro\\Erro500.cshtml",
       "FileKind": "mvc"
     },
     {

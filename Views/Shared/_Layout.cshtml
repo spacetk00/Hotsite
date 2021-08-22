@@ -9,19 +9,20 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav>
            <h1>Hotsite</h1>
         </nav>
     </header>
-    <div class="container-fluid">
+
+    <main class="container-fluid flex-fill">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    </div>
+    </main>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer">
         <div class="container">
             &copy; 2020 - Hotsite
         </div>

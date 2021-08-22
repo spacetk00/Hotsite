@@ -61,3 +61,14 @@
 /home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/obj/Debug/netcoreapp3.1/Hotsite.dll
 /home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/obj/Debug/netcoreapp3.1/Hotsite.pdb
 /home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/obj/Debug/netcoreapp3.1/Hotsite.genruntimeconfig.cache
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/bin/Debug/netcoreapp3.1/Serilog.dll
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/bin/Debug/netcoreapp3.1/Serilog.Extensions.Logging.dll
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/bin/Debug/netcoreapp3.1/Serilog.Extensions.Logging.File.dll
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/bin/Debug/netcoreapp3.1/Serilog.Formatting.Compact.dll
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/bin/Debug/netcoreapp3.1/Serilog.Sinks.Async.dll
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/bin/Debug/netcoreapp3.1/Serilog.Sinks.File.dll
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/bin/Debug/netcoreapp3.1/Serilog.Sinks.RollingFile.dll
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/obj/Debug/netcoreapp3.1/Razor/Views/Home/_ModalAgenda.cshtml.g.cs
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/obj/Debug/netcoreapp3.1/Razor/Views/Home/_ModalApoiadores.cshtml.g.cs
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/obj/Debug/netcoreapp3.1/Razor/Views/Home/_ModalDicas.cshtml.g.cs
+/home/fantasioso/Documentos/00-tecinfo/Modulo 2/UC3/Atividade 1/Hotsite/obj/Debug/netcoreapp3.1/Razor/Views/Erro/Erro500.cshtml.g.cs
