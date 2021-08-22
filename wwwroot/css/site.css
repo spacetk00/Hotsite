@@ -85,6 +85,10 @@ form label{
   padding-bottom: 2px;
 }
 
+.msg-erro{
+  color: red;
+}
+
 .botao{
   width: 50%;
   color: aliceblue;
@@ -146,7 +150,7 @@ footer{
 }
 
 .bloco-central{
-  height: auto;
+  height:100%;
 }
 
 .bloco-central img,
