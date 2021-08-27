@@ -31,7 +31,7 @@ namespace Hotsite
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                app.UseExceptionHandler("/erro/500");
             }
             else
             {

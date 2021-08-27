@@ -30,21 +30,17 @@ namespace Hotsite.Controllers
             DatabaseContext db = new DatabaseContext();
             try
             {
-                if(db.Database.EnsureCreated()){
-                    ViewBag.Falha = "Falha no cadastro, tente mais tarde";
-                    return View("Index");
-                }
-                else{
-                    dbs.CadastraInteresse(cad);
-                    ViewBag.Confirma = "Cadastro confimardo";
-                    return View("Index",cad);
-                }
+                dbs.CadastraInteresse(cad);
+                ViewBag.Confirma = "Cadastro confimardo";
+                return View("Index",cad);
             }
             catch(Exception e)
             {
-                _logger.LogError("Falha ao conectar com o banco de dados: " + e.Message);
-                return RedirectToAction("Erro500", "Erro");
+                _logger.LogError("Erro ao cadastrar interesse!: " + e.Message);
+                ViewBag.Falha = "Falha no cadastro, tente mais tarde";
+                return View("Index");
             }
+            
         }
 
     }
